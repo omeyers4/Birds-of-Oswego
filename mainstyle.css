@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: skolar-sans-latin, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    font-size: 1em;
+    background-color: #FDE9D3;
+}
+
+.title{
+    font-size: 1.424em;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    font-size: 1.125em;
+    font-weight: 400;
+    font-style: normal;
+    color:#7A3B00;
+    text-decoration: none;
+}
+
+.nav_links li a:hover{
+color:#8F1800;
+}
+
+img{
+    margin-top: 5rem;
+}
+
+.bluebird{
+    width:30%;
+    padding: 1em;
+    margin-left: 50px;
+}
+
+.redwingedblackbird{
+    width: 30%;
+    padding: 1em;
+}
+
+.cardinal{
+    width: 30%;
+    padding: 1em;
+}
+
+footer{
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .bluebird{
+        width:50%;
+        margin-left:auto;
+        margin-right:auto;
+}
+    .cardinal{
+        width: 50%;
+        align-items: center;
+
+}
+    .grackle{
+        width: 50%;
+}
+}
+    @media screen and (max-width: 425px){
+        p{
+            line-height: 3.75rem;
+        }
+    }
+
+@media screen and (max-width: 320px){
+    .bluebird{
+        width:100%;
+    }
+    .cardinal{
+        width: 100%;
+    }
+    .grackle{
+        width: 100%;
+    }
+    }
+
+
+
+/* Modular Scale
+3.247em
+2.887em
+2.566em
+2.281em
+2.027em
+1.802em
+1.602em
+1.424em
+1.266em
+1.125em
+1em
+
+Baseline Grid
+.75
+1.5
+2.25
+3
+3.75
+*/
