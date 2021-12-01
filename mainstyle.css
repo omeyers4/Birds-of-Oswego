@@ -14,11 +14,11 @@ header{
     align-items: center;
     padding: 2rem 5%;
     font-size: 1em;
-    background-color: #FDE9D3;
+    background-color: #EFE0CC;
 }
 
 .title{
-    font-size: 1.424em;
+    font-size: 1.602em;
     font-weight: 500;
     font-style: normal;
 }
@@ -42,7 +42,7 @@ header{
 }
 
 .nav_links li a:hover{
-color:#8F1800;
+color:#940000;
 }
 
 img{
