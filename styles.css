@@ -184,6 +184,7 @@ audio{
     align-items: center;
     justify-content: center;
     padding-left: 5rem;
+    margin-top: 15rem;
 }
 
 .diagram{
@@ -300,10 +301,6 @@ audio{
     padding-left: 20px;
     font-size: 1em;
   }
-
- img{
-	width: 100%;
-}
 
 @media screen and (max-width: 830px){
     video{
