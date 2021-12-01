@@ -224,6 +224,7 @@ audio{
 .nesting-image {
     order: 2;
     padding: 1rem;
+    margin-right: 5rem;
   }
 
 .nesting-text {
