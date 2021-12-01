@@ -305,68 +305,86 @@ audio{
     font-size: 1em;
   }
 
-@media screen and (max-width: 830px){
-    video{
-        width: 40rem;
-        height: 30rem;
-        padding: 1rem;
+  @media screen and (max-width: 1062px){
+    .title{
+        font-size: 1.802em;
     }
-    .slideshow-container{
-        width: 300%;
+    .nav_links li a{
+        font-size: 1.266em;
     }
 }
 
-@media screen and (max-width: 650px){
-    iframe{
-        width: 35rem;
-        height: 25rem;
-        padding: 1rem;
-    }
-    .slideshow-container{
-        width: 300%;
-    }
-    p{
-        font-size: 1.125em;
-    }
-    h1{
-        font-size: 2.281em;
-    }
-    h2{
-        font-size: 1.602em;
-    }
+@media screen and (max-width: 969px){
+.nav_links li{
+    display: flex;
+    padding: 0 2rem;
+}
 }
 
-@media screen and (max-width: 575px){
-    iframe{
-        width: 30rem;
-        height: 20rem;
-        padding: 1rem;
+@media screen and (max-width: 700px){
+    .bluebird{
+        width:100%;
+        margin-left: 0;
     }
-    .slideshow-container{
-        width: 400%;
+    .cardinal{
+        width: 100%;
+        margin-left: 0;
     }
-    p{
-        font-size: 1em;
-        padding-right: .5rem;
+    .redwingedblackbird{
+        width: 100%;
+        margin-left: 0;
     }
-    h1{
-        font-size: 2.027em;
     }
-    h2{
+
+    @media screen and (max-width: 500px){
+        .bluebird{
+            margin-left: 0rem;
+        }
+        .cardinal{
+            margin-left: 0rem;
+        }
+        .redwingedblackbird{
+            margin-left: 0rem;
+        }
+        }
+
+@media screen and (max-width: 427px){
+    .bluebird{
+        width:100%;
+    }
+    .cardinal{
+        width: 100%;
+    }
+    .redwingedblackbird{
+        width: 100%;
+    }
+    .title{
         font-size: 1.424em;
     }
+    .nav_links li a{
+        font-size: 1em;
+    }
 }
 
-@media screen and (max-width: 425px){
-    iframe{
-        width: 20rem;
-        height: 15rem;
-        padding: 1rem;
+@media screen and (max-width: 320px){
+    .bluebird{
+        width:100%;
+        margin-left: 0;
     }
-    .slideshow-container{
-        width: 400%;
+    .cardinal{
+        width: 100%;
+    }
+    .redwingedblackbird{
+        width: 100%;
+    }
+    .title{
+        font-size: 1.424em;
+    }
+    .nav_links li a{
+        font-size: 1em;
     }
 }
+
 
 /* Modular Scale
 3.247em
