@@ -22,8 +22,8 @@ video{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 500px;
-    height: 300px;
+    width: 1000px;
+    height: 600px;
 }
 
 video::-webkit-media-controls-volume-slider {
@@ -113,11 +113,6 @@ color:#8F1800;
 
 footer{
     padding: 1rem;
-}
-
-iframe{
-    display: block;
-    margin: 0 auto;
 }
 
 .habitat{
@@ -306,16 +301,12 @@ audio{
     font-size: 1em;
   }
 
-img{
-    width: 100%;
-}
-
-p{
-    max-width: 30rem;
+ img{
+	width: 100%;
 }
 
 @media screen and (max-width: 830px){
-    iframe{
+    video{
         width: 40rem;
         height: 30rem;
         padding: 1rem;
