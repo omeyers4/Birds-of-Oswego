@@ -8,6 +8,11 @@ html{
     font-family: skolar-sans-latin, sans-serif;
 }
 
+main{
+    margin-left: 3.75rem;
+    margin-right: 3.75rem;
+}
+
 h1{
     text-align: center;
     margin-bottom: 1.5rem;
@@ -16,10 +21,6 @@ h1{
     font-weight: 800;
     font-style: normal;
     line-height: 1.5rem;
-}
-
-img{
-    width: 100%;
 }
 
 video{
@@ -50,7 +51,6 @@ header{
 .title{
     transition: all 0.3s ease 0s;
     font-size: 2.027em;
-    font-family: skolar-sans-latin, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -62,15 +62,6 @@ header{
 
 .title a:hover{
 color:#940000;
-}
-
-
-figcaption{
-    font-family: skolar-sans-latin, sans-serif;
-    font-weight: 300;
-    padding: 1rem;
-    font-size: 1em;
-    font-size: 0.79em;
 }
 
 p{
@@ -116,6 +107,7 @@ color:#940000;
 
 footer{
     padding: 1rem;
+    margin-top: 5rem;
 }
 
 .habitat{
@@ -142,7 +134,7 @@ audio{
     margin: 2rem;
   }
 
-.mySlides {
+.mySlides{
     display: none;
   }
 
@@ -155,7 +147,7 @@ audio{
     padding: 1rem;
     color: white;
     font-weight: bold;
-    font-size: 2.027em;
+    font-size: 1.266em;
     transition: 0.6s ease;
     border-radius: 0 3rem 3rem 0;
     user-select: none;
@@ -171,10 +163,9 @@ audio{
   }
   
   .text {
-    font-family: skolar-sans-latin, sans-serif;
     font-weight: 300;
     color: black;
-    font-size: 1em;
+    font-size: 1.266em;
     padding: 1rem 1rem;
     position: absolute;
     bottom: -2.5rem;
@@ -186,18 +177,18 @@ audio{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 5rem;
-    margin-top: 15rem;
+    margin-left: 3.75rem;
+    margin-top: 10rem;
+}
+
+.diagram img{
+    width: 100%;
 }
 
 .diagram{
     flex-basis: 125%;
     order: 2;
-}
-
-.migration{
-    width: 5%;
-    padding: 1rem;
+    margin-right: 3.75rem;
 }
 
 .migrate-container{
@@ -211,81 +202,32 @@ audio{
   }
 
 .migrate-text {
-    font-size: 20px;
-    padding-left: 20px;
-    font-size: 1em;
+    font-size: 1.266em;
+    margin-left: 3.75rem;
   }
 
 .nesting-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15rem;
-    margin-bottom: 15rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.nesting-image img{
+    width: 100%;
 }
 
 .nesting-image {
     order: 2;
-    padding: 1rem;
-    margin-right: 5rem;
+    margin-right: 3.75rem;
+    
   }
 
 .nesting-text {
     font-size: 20px;
     padding-left: 20px;
     font-size: 1em;
-  }
-
-  .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.slideshow-container {
-    width: 100%;
-    position: relative;
-    margin: 2rem;
-  }
-
-.mySlides {
-    display: none;
-  }
-
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -2rem;
-    padding: 1rem;
-    color: white;
-    font-weight: bold;
-    font-size: 2.027em;
-    transition: 0.6s ease;
-    border-radius: 0 3rem 3rem 0;
-    user-select: none;
-  }
-  
-  .next {
-    right: 0;
-    border-radius: 3rem 0 0 3rem;
-  }
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  .text {
-    font-family: skolar-sans-latin, sans-serif;
-    font-weight: 300;
-    color: black;
-    font-size: 1em;
-    padding: 1rem 1rem;
-    position: absolute;
-    bottom: -2.5rem;
-    width: 100%;
-    text-align: center;
   }
 
   .migration{
@@ -296,10 +238,13 @@ audio{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10rem;
 }
 
 .migrate-image {
     flex-basis: 40%;
+    width: 100%;
+    margin-left: 3.75rem;
   }
 
 .migrate-text {
@@ -307,6 +252,28 @@ audio{
     padding-left: 20px;
     font-size: 1em;
   }
+
+.diet-container{
+    margin-top: 5rem;
+}
+.diet-text{
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+}
+
+@media screen and (max-width: 1080px){
+    video{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 850px;
+        height: 500px;
+    }
+    main{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
 
   @media screen and (max-width: 1062px){
     .title{
@@ -322,14 +289,100 @@ audio{
     display: flex;
     padding: 0 2rem;
 }
+video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 750px;
+    height: 400px;
+}
 }
 
-@media screen and (max-width: 700px){
-
+@media screen and (max-width: 850px){
+    video{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 650px;
+        height: 300px;
+    }    
+    .slideshow-container {
+        width: 110%;
+      }
     }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 770px){
+    video{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 600px;
+        height: 300px;
+    }
+    .size-container{
+        display: block;    
+        margin-bottom: 20rem;    
+        margin-top: -10rem;
+    }
+    .diagram{
+        position: relative;
+        top: 25rem;
+        margin-right: 0;
+    }
+    .diagram img{
+        width: 60%;
+    }
+    .nesting-image img{
+    width: 70%;
+      }
+    .nesting-image{
+        margin-right: 0;
+    }
+    .slideshow-container {
+        width: 150%;
+      }
+    }
 
+@media screen and (max-width: 680px){
+    video{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 450px;
+        height: 300px;
+    }
+    .slideshow-container {
+        width: 300%;
+      }
+}
+
+@media screen and (max-width: 550px){
+    video{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 400px;
+        height: 200px;
+    }
+    .slideshow-container {
+        width: 500%;
+      }
+}
+
+@media screen and (max-width: 480px){
+    video{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 300px;
+        height: 200px;
+    }
+    h1{
+        line-height: 3rem;
+    }
+    .slideshow-container {
+        width: 700%;
+      }
 }
 
 @media screen and (max-width: 427px){
@@ -339,6 +392,19 @@ audio{
     .nav_links li a{
         font-size: 1em;
     }
+    video{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 200px;
+        height: 100px;
+    }
+    audio{
+        width: 100%;
+    }
+    .slideshow-container {
+        width: 10000%;
+      }
 }
 
 @media screen and (max-width: 320px){
