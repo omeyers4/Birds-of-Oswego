@@ -44,7 +44,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 2rem 5%;
-    font-size: 1em;
     background-color: #EFE0CC;
 }
 
@@ -147,7 +146,6 @@ audio{
     padding: 1rem;
     color: white;
     font-weight: bold;
-    font-size: 1.266em;
     transition: 0.6s ease;
     border-radius: 0 3rem 3rem 0;
     user-select: none;
@@ -165,10 +163,19 @@ audio{
   .text {
     font-weight: 300;
     color: black;
-    font-size: 1.266em;
     padding: 1rem 1rem;
     position: absolute;
     bottom: -2.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .redtext {
+    font-weight: 300;
+    color: black;
+    padding: 1rem 1rem;
+    position: absolute;
+    bottom: -4.5rem;
     width: 100%;
     text-align: center;
   }
@@ -202,7 +209,6 @@ audio{
   }
 
 .migrate-text {
-    font-size: 1.266em;
     margin-left: 3.75rem;
   }
 
@@ -225,32 +231,7 @@ audio{
   }
 
 .nesting-text {
-    font-size: 20px;
     padding-left: 20px;
-    font-size: 1em;
-  }
-
-  .migration{
-    padding: 1rem;
-}
-
-.migrate-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10rem;
-}
-
-.migrate-image {
-    flex-basis: 40%;
-    width: 100%;
-    margin-left: 3.75rem;
-  }
-
-.migrate-text {
-    font-size: 20px;
-    padding-left: 20px;
-    font-size: 1em;
   }
 
 .diet-container{
@@ -259,6 +240,7 @@ audio{
 .diet-text{
     margin-left: 7.5rem;
     margin-right: 7.5rem;
+    margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 1080px){
@@ -332,6 +314,17 @@ video{
     .diagram img{
         width: 60%;
     }
+  .migrate-image img{
+        display: none;
+    }
+
+    /* .migrate-image {
+        position: relative;
+        top: 45rem;
+        left: 10rem;
+        margin-right: 0;
+      } */
+    
     .nesting-image img{
     width: 70%;
       }
@@ -383,6 +376,22 @@ video{
     .slideshow-container {
         width: 700%;
       }
+      /* .migrate-container{
+        display: block;    
+        margin-bottom: 20rem;    
+        margin-top: -15rem;
+    } */
+    
+    /* .migrate-image img{
+        width: 50%;
+       
+    }
+
+    .migrate-image {
+        position: relative;
+        top: 35rem;
+      } */
+
 }
 
 @media screen and (max-width: 427px){
@@ -400,11 +409,38 @@ video{
         height: 100px;
     }
     audio{
-        width: 100%;
+        width: 60%;
+        margin-bottom: 3rem;
     }
     .slideshow-container {
         width: 10000%;
       }
+      /* .migrate-container{
+        display: block;    
+        margin-bottom: 20rem;    
+        margin-top: -15rem;
+    } */
+    
+    /* .migrate-image img{
+        width: 25%;
+       
+    }
+
+    .migrate-image {
+        position: relative;
+        top: 35rem;
+      } */
+      .size-container{
+        display: block;    
+        margin-bottom: 10rem;    
+        margin-top: -10rem;
+    }
+
+
+.diet-text{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
 }
 
 @media screen and (max-width: 320px){
